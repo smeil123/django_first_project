@@ -1,0 +1,17 @@
+가상환경 사용하지
+
+myvenv\Scripts\activate
+
+
+프로젝트 생성
+django-damin.py startproject mysite .
+
+서버 시작
+python manage.py runserver
+
+데이터베이스 추가
+python manage.py makemigrations blog
+python manage.py migrate blog
+
+슈퍼사용자 생성
+python manage.py createsuperuser
